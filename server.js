@@ -9,6 +9,7 @@ const app = express();
 const port = 3000;
 const API_URL = process.env.API_BACKEND_URL;
 
+
 app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ extended: true }));
