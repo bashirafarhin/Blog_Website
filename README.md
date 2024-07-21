@@ -1,4 +1,4 @@
-This is a simple # Blog Website 
+# Blog Website 
 
 ## The main aim of this project is to implement operations such as
 * GET
@@ -17,8 +17,8 @@ If you wish to run this website on your machine you can follow these steps
 5. change the PORT number
   * In your index.js file replace process.env.port with 4000
   * In your server.js file replace process.env.port with 3000
-  * In the server.js file replace process.env.API_BACKEND_URL with http://localhost:4000;
-7. run nodemon index.js
+  * In the server.js file replace process.env.API_BACKEND_URL with "http://localhost:4000"
+7. run nodemon index.js in a new terminal , don't close the terminal where you are running your index.js file
    * This will will act as an API
    * This is the server which listens to our request made by the server.js file and sends back a response to the server.js file
 8. run nodemon server.js
